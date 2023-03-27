@@ -1,0 +1,6 @@
+/*
+
+ */
+public class Ejercicio1 {
+    
+}
