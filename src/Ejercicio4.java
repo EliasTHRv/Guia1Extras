@@ -1,11 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
 /**
- *
- * @author elias
+ Elaborar un algoritmo en el cuál se ingrese un número entre 1 y 10 y se muestre su
+equivalente en romano
  */
 public class Ejercicio4 {
     
