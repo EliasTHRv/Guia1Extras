@@ -9,7 +9,7 @@ public class Ejercicio3p2 {
 
     public static void main(String[] args) {
 
-        String cad1, cad2, cad3, cad4, cad5;
+        String cad1,cad2,cad3,cad4,cad5;
         Scanner leer = new Scanner(System.in);
         System.out.println("Ingrese una letra: ");
         String letra = leer.nextLine();
@@ -19,31 +19,7 @@ public class Ejercicio3p2 {
         cad4 = "o";
         cad5 = "u";
 
-        if (letra.equals(cad1)) {
-            System.out.println("Es una vocal");
-        } else {
-            System.out.println("No es una vocal");
-        }
-
-        if (letra.equals(cad2)) {
-            System.out.println("Es una vocal");
-        } else {
-            System.out.println("No es una vocal");
-        }
-
-        if (letra.equals(cad3)) {
-            System.out.println("Es una vocal");
-        } else {
-            System.out.println("No es una vocal");
-        }
-
-        if (letra.equals(cad4)) {
-            System.out.println("Es una vocal");
-        } else {
-            System.out.println("No es una vocal");
-        }
-
-        if (letra.equals(cad5)) {
+        if (letra.equals(cad1)||(letra.equals(cad2))||(letra.equals(cad3))||(letra.equals(cad4))||(letra.equals(cad5))) {
             System.out.println("Es una vocal");
         } else {
             System.out.println("No es una vocal");
