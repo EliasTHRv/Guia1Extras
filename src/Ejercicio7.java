@@ -13,27 +13,31 @@ public class Ejercicio7 {
 
     public static void main(String[] args) {
 
-        int valMin, valMax, nNum,valN, suM, i;
-        double proM;
+        int nNum, i;
+
+        double proM, valMin, valMax, nuM, suM;
         Scanner leerN = new Scanner(System.in);
         System.out.println("Ingrese la cantidad de numeros: ");
         nNum = leerN.nextInt();
         i = 1;
-
-        while (i<=nNum) {
+        proM = 0;
+        suM = 0;
+        valMin = Double.POSITIVE_INFINITY;
+        valMax = Double.NEGATIVE_INFINITY;
+        while (i <= nNum) {
             i++;
             System.out.println("Ingrese los numeros: ");
-            valN = leerN.nextInt();
-            
-            if (true) {
-                System.out.println(Math.min(i, i));
-            } else if (true){
-            }
-            else{
-            }
-            
-        }
+            nuM = leerN.nextDouble();
+            suM += nuM;
 
+            valMax = Math.max(valMax, nuM);
+            valMin = Math.min(valMin, nuM);
+
+        }
+        proM = suM / nNum;
+        System.out.println("El promedio de los numeros es: " + proM);
+        System.out.println("El valor minimo es: " + valMin);
+        System.out.println("El valor maximo es: " + valMax);
     }
 
 }
