@@ -19,7 +19,7 @@ public class Ejercicio1 {
        dias = horas/24;
        horas2 = horas % 24;
        
-       System.out.println(minutos + " equivalen a: " + dias + " dia/s "+ " y " + horas2 + " hora/s" );
+       System.out.println(minutos + " minutos equivalen a: " + dias + " dia/s "+ " y " + horas2 + " hora/s" );
         
    }
 }

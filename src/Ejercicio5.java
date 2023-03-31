@@ -25,15 +25,16 @@ public class Ejercicio5 {
         System.out.println("Ingrese costo del tratamiento");
         costo = letra.nextInt();
       
+      
         pre1=((costo*50)/100);
         pre2=((costo*35)/100);
         
-        if (socio.equals("A")) {
-            System.out.println("El costo del tratamiento con desccuento socio A:"+(costo - pre1));
+        if (socio.equalsIgnoreCase("A")) {
+            System.out.println("El costo del tratamiento con desccuento socio A: $"+(costo - pre1));
             
         }
-        if (socio.equals("B")) {
-            System.out.println("El costo del tratamiento con desccuento socio B:"+(costo - pre2));
+        if (socio.equalsIgnoreCase("B")) {
+            System.out.println("El costo del tratamiento con desccuento socio B: $"+(costo - pre2));
             
         }
         
